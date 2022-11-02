@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-body">
+        <main>
+            <header>
+                <h1>Women in Tech Kenya Survey</h1>
+            </header>
+            <section>
+                <form >
+                <p><i>This survey should take about 10-15 minutes to finish</i></p>
+                <p>By signing this form/ticking- I give my consent for my personal data to be processed this way</p>
+                <input type="checkbox" id="agree" name="agree">
+                <label for="agree">I agree</label>
+                <fieldset>
+                    <legend><h3>personal data</h3></legend>
+                    <div class="input-form">
+                     <label for="fname">Full Name:</label>
+                      <input type="text" id="fname" name="name" required >
+                      </div>
+                      <div class="input-form">
+                      <label for ="email">Your Email Address:</label>
+                      <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                      </div>
+                      <div class="input-form">
+                      <label for="date">Enter Today's Date</label>
+                      <input type="date" id="date" name="datet">
+                      </div>
+                      <div class="input-form">
+                      <label for="age">age</label>
+                      <input type="number" id="age" name="age">
+                      </div>
+                </fieldset>
+                <fieldset>
+                    <legend><h3>Career Questions</h3></legend>
+                    <div class="quiz-1">
+                        <label><strong>1.</strong>Which Gender do you Identify yourself as ?</label>
+                        <div class="gender">
+                            <input type="radio" value="none" name="gender" id="male" >
+                            <label for="male" class="radio">Male</label>
+                            <input type="radio" value="none" name="gender" id="female" checked>
+                            <label for="female" class="radio">Female</label>
+                            <input type="radio" value="none" name="gender" id="other">
+                            <label for="other" class="radio">Other</label>
+                         </div>
+                    </div>
+                    <div class="quiz-1">
+                        <label><strong>2.</strong>Which career path in tech are you interested in?</label>
+                        <div class="career">
+                            <input type="checkbox" value="none" id="web" name="web">
+                            <label for="web">Web Development</label>
+                        </div>
+                        <div class="career">
+                            <input type="checkbox" value="none " id= "cyber" name="cyber">
+                            <label for="cyber">Cyber Security</label>
+                        </div>
+                        <div class="career">
+                            <input type="checkbox" value="none" id="analysis" name="analysis">
+                            <label for="analysis">Data Analysis</label>
+                         </div>
+                         <div class="career">
+                            <input type="checkbox" value="none"  id="internet" name="internet">
+                            <label for="internet">Internet of Things</label>
+                        </div>
+                    </div>
+                    <div class="quiz-1">
+                        <label><strong>3.</strong>Which County its your current work place?</label>
+                        <div class="county">
+                            <select class="county">
+                                <option value="1">Nairobi</option>
+                                <option value="2">Mombasa</option>
+                                <option value="3">Nakuru</option>
+                                <option value="4">Nanyuki</option>
+                                <option value="1">Kisumu</option>
+                                <option value="1">Migori</option> 
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="quiz-1">
+                        <label><strong>3.</strong>How many years of experience do you have in your current job?</label>
+                        <div class="county">
+                            <select class="county">
+                                <option value="1">0-1years</option>
+                                <option value="2">2years</option>
+                                <option value="3">3 years</option>
+                                <option value="4">4 years</option>
+                                <option value="1">5years</option>
+                                <option value="1">more than 6years</option> 
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="quiz-1">
+                        <div class="textara">
+                            <label><strong>4.</strong>Which career path can you advice a young female to follow and the reason why its suitable for her?</label>
+                        </div>
+                        <div class="textara">
+                           <textarea rows="5"></textarea>
+                        </div>
+                    </div>
+                    <small>*The information given within above will be used for education purposes*</small>
+                    <div class="btn-submit">
+                        <button type="submit">Submit</button>
+                    </div>
+
+
+                </fieldset>
+
+                </form>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>Autor:Fennishias</p>
+    </footer>
+    
+</body>
+</html>
